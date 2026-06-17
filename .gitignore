@@ -40,4 +40,6 @@ htmlcov/
 *.so
 *.egg
 *.tar.gz
-*.whl
+*.whl__pycache__/
+*.pyc
+*.cpython-*
