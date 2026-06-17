@@ -1,0 +1,14 @@
+README.md
+pyproject.toml
+tests/test_generator.py
+tree_docs/__init__.py
+tree_docs/cli.py
+tree_docs/config.py
+tree_docs/defaults.py
+tree_docs/generator.py
+tree_docs.egg-info/PKG-INFO
+tree_docs.egg-info/SOURCES.txt
+tree_docs.egg-info/dependency_links.txt
+tree_docs.egg-info/entry_points.txt
+tree_docs.egg-info/requires.txt
+tree_docs.egg-info/top_level.txt

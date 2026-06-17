@@ -1,0 +1,57 @@
+Metadata-Version: 2.4
+Name: tree-docs
+Version: 0.1.0
+Summary: Gerador automático de árvore de diretórios com emojis e comentários para documentação em Markdown
+Author-email: Kelvin Matheus <kmathews.blaze@email.com>
+License: MIT
+Project-URL: Homepage, https://github.com/seu-usuario/tree-docs
+Project-URL: Documentation, https://tree-docs.readthedocs.io
+Project-URL: Repository, https://github.com/seu-usuario/tree-docs
+Project-URL: Issues, https://github.com/seu-usuario/tree-docs/issues
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Documentation
+Classifier: Topic :: Software Development :: Documentation
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+Provides-Extra: dev
+Requires-Dist: pytest>=7.0.0; extra == "dev"
+Requires-Dist: pytest-cov>=4.0.0; extra == "dev"
+Requires-Dist: black>=22.0.0; extra == "dev"
+Requires-Dist: flake8>=5.0.0; extra == "dev"
+Requires-Dist: mypy>=0.990; extra == "dev"
+Requires-Dist: pre-commit>=2.20.0; extra == "dev"
+
+# 🌳 TreeDocs
+
+[![PyPI version](https://badge.fury.io/py/tree-docs.svg)](https://badge.fury.io/py/tree-docs)
+[![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
+
+Gerador automático de árvore de diretórios com emojis e comentários para documentação em Markdown.
+
+## ✨ Features
+
+- 🚀 **Geração automática** da estrutura de diretórios
+- 🎨 **Emojis** para identificar tipos de arquivos
+- 📝 **Comentários** explicativos para pastas e arquivos
+- 🎯 **Alinhamento** profissional dos comentários
+- 🔧 **Altamente configurável**
+- 💻 **CLI** e **API Python** disponíveis
+- 📦 **Zero dependências** externas
+
+## 📦 Instalação
+
+### Via pip (recomendado)
+
+```bash
+pip install tree-docs
