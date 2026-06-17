@@ -1,0 +1,41 @@
+# Build
+dist/
+build/
+*.egg-info/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# Ambiente virtual
+venv/
+.venv/
+env/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Sistema
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Testes
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+
+# Outros
+*.so
+*.egg
+*.tar.gz
+*.whl
