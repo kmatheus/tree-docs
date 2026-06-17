@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "tree-docs"
-version = "0.1.0"
+version = "0.1.1"
 description = "Gerador automático de árvore de diretórios com emojis e comentários para documentação em Markdown"
 readme = "README.md"
 authors = [
