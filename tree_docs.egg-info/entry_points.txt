@@ -1,2 +1,0 @@
-[console_scripts]
-tree-docs = tree_docs.cli:main
